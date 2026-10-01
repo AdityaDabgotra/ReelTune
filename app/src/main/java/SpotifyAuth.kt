@@ -7,7 +7,7 @@ import kotlin.coroutines.resumeWithException
 import kotlinx.coroutines.suspendCancellableCoroutine
 
 object SpotifyConfig {
-    const val CLIENT_ID = "PASTE_YOUR_SPOTIFY_CLIENT_ID_HERE"
+    const val CLIENT_ID = "398ce30d19fe40bdbec9c70046a5e06b"
     const val REDIRECT_URI = "reeltune://callback"
     const val SCOPES = "playlist-read-private playlist-modify-private playlist-modify-public"
 }
