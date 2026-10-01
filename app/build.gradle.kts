@@ -14,7 +14,7 @@ android {
         targetSdk = 37
         versionCode = 1
         versionName = "1.0"
-
+        manifestPlaceholders["appAuthRedirectScheme"] = "reeltune"
         testInstrumentationRunner = "androidx.test.runner.AndroidJUnitRunner"
     }
 
